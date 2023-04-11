@@ -15,5 +15,4 @@
 
 
 **Step Three: Trying some commands**
-1) To try some command, I can type any of the following into the terminal and enter:
-* * lol 
+1) To try some command, I can enter any of the following into the terminal : cd, cd ~, ls -lat, ls -a, etc.
