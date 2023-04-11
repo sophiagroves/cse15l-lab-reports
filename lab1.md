@@ -5,6 +5,8 @@
 **Step One: installing VScode**
 1) I already have VScode on my laptop, so I skip installing and simply open the program from my mac's dock. 
 
+![Image](Screen Shot 2023-04-10 at 7.03.07 PM.png)
+
 **Step Two: remotely connecting**
 1)  I skip installing git step because I am not using a windows device.
 2)  I open a terimnal on VScode using the terminal > new terminal option at the top of the screen.
