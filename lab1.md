@@ -3,7 +3,7 @@
 **Hello! Here is a step by step tutorial on how to log into a course specific acount on ieng6.**
 
 ## Step One: installing VScode
-1. I already have VScode on my laptop, so I skip installing and simply open the program from my mac's dock. 
+1. I already have VScode on my laptop, so I skip installing and simply open the program from my mac's dock. However, if you don't have VScode, you can go [here](https://code.visualstudio.com/) and follow the instructions on the website. 
 
 ![Image](1.png)
 
