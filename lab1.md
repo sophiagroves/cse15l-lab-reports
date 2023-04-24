@@ -16,12 +16,14 @@
 3. I type into the terminal my unique course specific account, which for this class is: `$ ssh cs15lsp23nn@ieng6.ucsd.edu` where $ denotes the beginning of my command. I can find this by going to [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php) and logging in with my school ID into Account Lookup. After logging in, my CSE username is listed under the Additional Accounts option. 
 4. If the following message appears for connecting to a server for the first time: Are you sure you want to continue connecting (yes/no/[fingerprint])? I will type yes into the terminal then enter.
 6. I type in my password when prompted, noting that though nothing shows up when typing it still is being inputed.
-7. I will know I'm logged in when I receive the message Hello cs15lsp23nn, you are currently logged into ieng6-203.ucsd.edu.
+7. I will know I'm logged in when I receive the message: `Hello cs15lsp23nn, you are currently logged into ieng6-203.ucsd.edu.`
 
-![Image](3.png)
+![Image](brp.png)
+
+(If I do or do not get the notice its okay)
 
 
 ## Step Three: Trying some commands
-1. To try some command, I can enter any of the following into the terminal : cd, cd ~, ls -lat, ls -a, etc.
+1. To try some commands, I can enter any of the following into the terminal : `cd`, `cd ~`, `ls -lat`, `ls -a`, etc.
 
-![Image](4.png)
+![Image](oki.png)
