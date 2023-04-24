@@ -25,5 +25,6 @@
 
 ## Step Three: Trying some commands
 1. To try some commands, I can enter any of the following into the terminal : `cd`, `cd ~`, `ls`, `pwd`, etc.
+`cd` will change the working directory to whatever I enter after, or to my home directory if I don't add anything. `cd~` will change the working directory to the home directory. `ls` will print all the files in my current working directory. `pwd` will print my current working directory. 
 
 ![Image](oki.png)
