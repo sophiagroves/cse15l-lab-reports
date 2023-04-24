@@ -24,6 +24,6 @@
 
 
 ## Step Three: Trying some commands
-1. To try some commands, I can enter any of the following into the terminal : `cd`, `cd ~`, `ls -lat`, `ls -a`, etc.
+1. To try some commands, I can enter any of the following into the terminal : `cd`, `cd ~`, `ls`, `pwd`, etc.
 
 ![Image](oki.png)
