@@ -4,8 +4,8 @@
 ![Image](a.png)
 ![Image](b.png)
 1. The `handleRequest` method is called. 
-2. The relevant argument to the `handleRequest method` is the instance of the `URI` class, which is the URL requested by me: [http://localhost:4000/add-message?s=Hello](http://localhost:4000/add-message?s=Hello). The relevant arguemnt to the 
-3. c
+2. The relevant argument to the `handleRequest method` is the instance of the `URI` class, which is the URL requested by me: [http://localhost:4000/add-message?s=Hello](http://localhost:4000/add-message?s=Hello). The relevant field for the `Handler` class is the `allparameters` field, which is a `List<String>`. The value of the `allparameters` field is a list with one string element, `"Hello"`.
+3. 
 
 ![Image](c.png)
 1. a
