@@ -29,3 +29,4 @@
 ![Image](five.png)
 
 ## Part 3: What I Learned 
+During lab in week 2, I learned how to host a local server. During lab in week 3, I learned that I can run junit tests in the terminal. 
