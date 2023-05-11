@@ -14,19 +14,41 @@
 
 ## Part 2: Bugs
 **Failure inducing input for bug code:**
-![Image](one.png)
-
+```
+  public void testReverseInPlacenotworks() {
+    int[] input2 = {1,2,3};
+    ArrayExamples.reverseInPlace(input2);
+    assertArrayEquals(new int[]{3,2,1}, input2);
+  }
+  
+```
 **Non failure inducing input for bug code:**
-![Image](two.png)
-
+```
+	public void testReverseInPlaceworks() {
+    int[] input1 = {2,2,2};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{2,2,2}, input1);
+  }
+  
+```
 **The symptom as output of running the tests:**
 ![Image](three.png)
 
 **The code before debugging:**
-![Image](four.png)
-
+```
+  static void reverseInPlace(int[] arr) {
+      for(int i = 0; i < arr.length; i += 1) {
+        arr[i] = arr[arr.length - i - 1];
+      }
+  }
+```
 **The code after debugging:**
-![Image](five.png)
-
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < (arr.length / 2); i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+}
 ## Part 3: What I Learned 
 During lab in week 2, I learned how to host a local server. During lab in week 3, I learned that I can run junit tests in the terminal. 
