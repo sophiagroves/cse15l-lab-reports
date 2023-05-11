@@ -14,13 +14,18 @@
 
 ## Part 2: Bugs
 **Failure inducing input for bug code:**
+![Image](one.png)
 
 **Non failure inducing input for bug code:**
+![Image](two.png)
 
 **The symptom as output of running the tests:**
+![Image](three.png)
 
 **The code before debugging:**
+![Image](four.png)
 
 **The code after debugging:**
+![Image](five.png)
 
 ## Part 3: What I Learned 
