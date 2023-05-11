@@ -15,11 +15,11 @@
 ## Part 2: Bugs
 **Failure inducing input for bug code:**
 ```
-  public void testReverseInPlacenotworks() {
+public void testReverseInPlacenotworks() {
     int[] input2 = {1,2,3};
     ArrayExamples.reverseInPlace(input2);
     assertArrayEquals(new int[]{3,2,1}, input2);
-  }
+}
   
 ```
 **Non failure inducing input for bug code:**
@@ -28,7 +28,7 @@ public void testReverseInPlaceworks() {
     int[] input1 = {2,2,2};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{2,2,2}, input1);
-  }
+}
   
 ```
 **The symptom as output of running the tests:**
