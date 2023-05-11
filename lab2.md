@@ -24,7 +24,7 @@
 ```
 **Non failure inducing input for bug code:**
 ```
-	public void testReverseInPlaceworks() {
+public void testReverseInPlaceworks() {
     int[] input1 = {2,2,2};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{2,2,2}, input1);
@@ -43,6 +43,7 @@
   }
 ```
 **The code after debugging:**
+```
 static void reverseInPlace(int[] arr) {
     for(int i = 0; i < (arr.length / 2); i += 1) {
       int temp = arr[i];
@@ -50,5 +51,6 @@ static void reverseInPlace(int[] arr) {
       arr[arr.length - i - 1] = temp;
     }
 }
+```
 ## Part 3: What I Learned 
 During lab in week 2, I learned how to host a local server. During lab in week 3, I learned that I can run junit tests in the terminal. 
