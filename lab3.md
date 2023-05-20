@@ -47,4 +47,43 @@ $ grep -v "a" journal.pbio.0020001.txt
 
         built.
 ```
-**grep -v finds and returns all lines that do not have the given string. This is useful for wanting to find information that does not talk about or include a specific phrase.** 
+**grep -v finds and returns all lines that do not contain the given string. This is useful for wanting to find information that does not talk about or include a specific phrase.** 
+
+## command line option 2: ls | grep 
+source: https://en.wikibooks.org/wiki/Grep
+
+- *example 1:*
+
+```
+14088@DESKTOP-FOGPOI2 MINGW64 ~/Downloads/docsearch-main/technical/biomed
+$ ls | grep 99
+1471-2199-2-1.txt
+1471-2199-2-10.txt
+1471-2199-2-12.txt
+1471-2199-2-2.txt 
+1471-2199-2-3.txt 
+1471-2199-2-4.txt 
+1471-2199-2-5.txt 
+1471-2199-2-6.txt 
+1471-2199-3-10.txt
+1471-2199-3-11.txt
+1471-2199-3-12.txt
+1471-2199-3-17.txt
+1471-2199-3-3.txt 
+1471-2199-3-7.txt 
+1471-2199-4-4.txt 
+1471-2199-4-5.txt 
+ar799.txt
+cc991.txt
+```
+
+- *examples 2:* 
+
+```
+14088@DESKTOP-FOGPOI2 MINGW64 ~/Downloads/docsearch-main/technical/government/About_LSC
+$ ls | grep "Legal"
+LegalServCorp_v_VelazquezDissent.txt 
+LegalServCorp_v_VelazquezOpinion.txt 
+LegalServCorp_v_VelazquezSyllabus.txt
+```
+**ls | grep finds all files within the current directory that have the given string in their name. This is useful for quickly filtering and finding specificic files in directories that are too large to look through manually.
