@@ -86,4 +86,34 @@ LegalServCorp_v_VelazquezDissent.txt
 LegalServCorp_v_VelazquezOpinion.txt 
 LegalServCorp_v_VelazquezSyllabus.txt
 ```
-**ls | grep finds all files within the current directory that have the given string in their name. This is useful for quickly filtering and finding specificic files in directories that are too large to manually look through efficiently.
+**ls | grep finds all files within the current directory that have the given string in their name. This is useful for quickly filtering and finding specificic files in directories that are too large to manually look through efficiently.**
+
+## command line option 3: grep -c
+source: prompted chat gpt with "grep command line options"
+
+- *example 1:*
+
+```
+```
+
+- *example 2:*
+
+```
+```
+
+**grep -c outputs the number of lines that contain the given string. This is useful for estimating how much a given text talks about a specific subject.** 
+
+## command line option 4: grep -B <num> 
+source: prompted chat gpt with "grep command line options"
+        
+- *example 1:*
+
+```
+```
+
+- *example 2:*
+
+```
+```
+
+**grep -B <num> prints <num> amount of lines of context before the first matching line of the given string. This is useful for gaining more context on the matching line that was found.**   
