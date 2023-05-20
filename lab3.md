@@ -139,4 +139,6 @@ become one of the major supporters of the project.
 Stewart Ralphs, the executive director of the Legal Aid Society,
 ```
 
-**grep -B <num> prints <num> amount of lines of context before the matching line of the given string. This is useful for gaining more context on the matching lines that were found.**   
+**grep -B <num> prints <num> amount of lines of context before the matching line of the given string. This is useful for gaining more context on the matching lines that were found.**
+        
+        
