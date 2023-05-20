@@ -3,7 +3,7 @@
 **my chosen command is grep** 
 
 ## command line option 1: grep -v
-source: https://en.wikibooks.org/wiki/Grep
+source: [https://en.wikibooks.org/wiki/Grep](https://en.wikibooks.org/wiki/Grep)
 
 - *example 1:*
 ```
@@ -50,7 +50,7 @@ $ grep -v "a" journal.pbio.0020001.txt
 grep -v finds and returns all lines that do not contain the given string. This is useful for wanting to find information that does not talk about or include a specific phrase.
 
 ## command line option 2: ls | grep 
-source: https://en.wikibooks.org/wiki/Grep
+source: [https://en.wikibooks.org/wiki/Grep](https://en.wikibooks.org/wiki/Grep)
 
 - *example 1:*
 
