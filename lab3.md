@@ -94,11 +94,17 @@ source: prompted chat gpt with "grep command line options"
 - *example 1:*
 
 ```
+14088@DESKTOP-FOGPOI2 MINGW64 ~/Downloads/docsearch-main/technical/911report
+$ grep -c "bomb" chapter-1.txt
+15        
 ```
 
 - *example 2:*
 
 ```
+14088@DESKTOP-FOGPOI2 MINGW64 ~/Downloads/docsearch-main/technical/biomed
+$ grep -c "obese" 1468-6708-3-1.txt
+10
 ```
 
 **grep -c outputs the number of lines that contain the given string. This is useful for estimating how much a given text talks about a specific subject.** 
@@ -109,11 +115,13 @@ source: prompted chat gpt with "grep command line options"
 - *example 1:*
 
 ```
+
 ```
 
 - *example 2:*
 
 ```
+
 ```
 
 **grep -B <num> prints <num> amount of lines of context before the first matching line of the given string. This is useful for gaining more context on the matching line that was found.**   
