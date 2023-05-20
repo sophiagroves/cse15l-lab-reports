@@ -115,13 +115,28 @@ source: prompted chat gpt with "grep command line options"
 - *example 1:*
 
 ```
+14088@DESKTOP-FOGPOI2 MINGW64 ~/Downloads/docsearch-main/technical/biomed
+$ grep -B 5 "National Heart Lung and Blood Institute" 1468-6708-3-1.TXT
 
+
+          Body mass index
+          BMI was calculated as measured weight in kilograms     
+          divided by the square of measured height in meters. A  
+          report from the National Heart Lung and Blood Institute
 ```
 
 - *example 2:*
 
 ```
-
+14088@DESKTOP-FOGPOI2 MINGW64 ~/Downloads/docsearch-main/technical/government/Media
+$ grep -B 2 "Legal Aid Society" 5_Legal_Groups.txt
+Community Legal Center is the first joint office project of public
+service law groups.
+The Legal Aid Society of Salt Lake, the Disability Law Center,
+--
+noted on the donor list that the couple, through Olafson Group, had
+become one of the major supporters of the project.
+Stewart Ralphs, the executive director of the Legal Aid Society,
 ```
 
-**grep -B <num> prints <num> amount of lines of context before the first matching line of the given string. This is useful for gaining more context on the matching line that was found.**   
+**grep -B <num> prints <num> amount of lines of context before the matching line of the given string. This is useful for gaining more context on the matching lines that were found.**   
