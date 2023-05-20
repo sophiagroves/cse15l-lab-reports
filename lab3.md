@@ -86,4 +86,4 @@ LegalServCorp_v_VelazquezDissent.txt
 LegalServCorp_v_VelazquezOpinion.txt 
 LegalServCorp_v_VelazquezSyllabus.txt
 ```
-**ls | grep finds all files within the current directory that have the given string in their name. This is useful for quickly filtering and finding specificic files in directories that are too large to look through manually.
+**ls | grep finds all files within the current directory that have the given string in their name. This is useful for quickly filtering and finding specificic files in directories that are too large to manually look through efficiently.
