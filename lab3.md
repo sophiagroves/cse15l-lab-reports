@@ -47,3 +47,4 @@ $ grep -v "a" journal.pbio.0020001.txt
 
         built.
 ```
+** grep -v finds all lines in the given txt file that do not have the given string. This is useful for wanting to find information that does not talk about or include a specific phrase.** 
