@@ -47,7 +47,7 @@ $ grep -v "a" journal.pbio.0020001.txt
 
         built.
 ```
-**grep -v finds and returns all lines that do not contain the given string. This is useful for wanting to find information that does not talk about or include a specific phrase.**
+grep -v finds and returns all lines that do not contain the given string. This is useful for wanting to find information that does not talk about or include a specific phrase.
 
 ## command line option 2: ls | grep 
 source: https://en.wikibooks.org/wiki/Grep
@@ -86,7 +86,7 @@ LegalServCorp_v_VelazquezDissent.txt
 LegalServCorp_v_VelazquezOpinion.txt 
 LegalServCorp_v_VelazquezSyllabus.txt
 ```
-**ls | grep finds all files within the current directory that have the given string in their name. This is useful for quickly filtering and finding specificic files in directories that are too large to manually look through efficiently.**
+ls | grep finds all files within the current directory that have the given string in their name. This is useful for quickly filtering and finding specificic files in directories that are too large to manually look through efficiently.
 
 ## command line option 3: grep -c
 source: prompted chat gpt with "grep command line options"
@@ -107,7 +107,7 @@ $ grep -c "obese" 1468-6708-3-1.txt
 10
 ```
 
-**grep -c outputs the number of lines that contain the given string. This is useful for estimating how much a given text talks about a specific subject.** 
+grep -c outputs the number of lines that contain the given string. This is useful for estimating how much a given text talks about a specific subject.
 
 ## command line option 4: grep -B <num> 
 source: prompted chat gpt with "grep command line options"
@@ -139,5 +139,5 @@ become one of the major supporters of the project.
 Stewart Ralphs, the executive director of the Legal Aid Society,
 ```
 
-**grep -B <num> prints <num> amount of lines of context before the matching line of the given string. This is useful for gaining more context on the matching lines that were found.**
+grep -B <num> prints <num> amount of lines of context before the matching line of the given string. This is useful for gaining more context on the matching lines that were found.
         
