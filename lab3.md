@@ -47,7 +47,7 @@ $ grep -v "a" journal.pbio.0020001.txt
 
         built.
 ```
-**grep -v finds and returns all lines that do not contain the given string. This is useful for wanting to find information that does not talk about or include a specific phrase.** 
+**grep -v finds and returns all lines that do not contain the given string. This is useful for wanting to find information that does not talk about or include a specific phrase.**
 
 ## command line option 2: ls | grep 
 source: https://en.wikibooks.org/wiki/Grep
@@ -140,5 +140,4 @@ Stewart Ralphs, the executive director of the Legal Aid Society,
 ```
 
 **grep -B <num> prints <num> amount of lines of context before the matching line of the given string. This is useful for gaining more context on the matching lines that were found.**
-        
         
