@@ -4,7 +4,7 @@
 
 **keys pressed:**
 - `<up> <up> <enter>`
-  - 1
+  - the `ssh cs15lsp23nn@ieng6.ucsd.edu` was 2 up in my terminal history, so I accessed it with 2 up arrow. I had set up the SSH key for ieng6 so was not prompted for my password. 
 
 ![Image](image.png)
 
@@ -12,6 +12,7 @@
 
 **keys pressed:** 
 - g i t `<space>` c l o n e `<cntrl-v>`
+  - I had my forked repository ssh link (git@github.com:sophiagroves/lab7.git)[git@github.com:sophiagroves/lab7.git]
 
 ![Image](image(1).png)
 
