@@ -2,20 +2,20 @@
 
 ## step 4: Log into ieng6
 
-`<up> <up> <enter>`
+- `<up> <up> <enter>`
 ![Image](image.png)
 
 ## step 5: Clone your fork of the repository from your Github account
   
-g i t `<space>` c l o n e `<cntrl-v>`
+- g i t `<space>` c l o n e `<cntrl-v>`
 ![Image](image(1).png)
 
 
 ## step 6: Run the tests, demonstrating that they fail 
 
-c d `<space>` l a `<tab> <enter>`
-`<up> <up> <up> <up> <enter>`
-`<up> <up> <up> <up> <enter>`
+- c d `<space>` l a `<tab> <enter>`
+- `<up> <up> <up> <up> <enter>`
+- `<up> <up> <up> <up> <enter>`
 
 ## step 7: Edit the code file ListExamples.java to fix the failing test 
 
