@@ -4,7 +4,7 @@
 
 **keys pressed:**
 - `<up> <up> <enter>`
-  - the `ssh cs15lsp23nn@ieng6.ucsd.edu` was 2 up in my terminal history, so I accessed it with 2 up arrow. I had set up the SSH key for ieng6 so was not prompted for my password. 
+  - the `ssh cs15lsp23nn@ieng6.ucsd.edu` was 2 up in my terminal history, so I accessed it with 2 up arrow. I had set up the SSH key for ieng6 so was not prompted for my password when logging in. 
 
 ![Image](image.png)
 
@@ -12,7 +12,7 @@
 
 **keys pressed:** 
 - g i t `<space>` c l o n e `<cntrl-v>`
-  - I had my forked repository ssh link (git@github.com:sophiagroves/lab7.git)[git@github.com:sophiagroves/lab7.git]
+  - I had the forked repository ssh link [git@github.com:sophiagroves/lab7.git](git@github.com:sophiagroves/lab7.git) copied to my clipboard previously, so I pasted it into the terminal. This cloned the lab7 repository into my ieng6 account. 
 
 ![Image](image(1).png)
 
