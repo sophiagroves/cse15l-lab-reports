@@ -8,7 +8,7 @@
 ## step 5: Clone your fork of the repository from your Github account
   
 g i t `<space>` c l o n e `<cntrl-v>`
-![Image](image_(1).png)
+![Image](image (1).png)
 
 
 ## step 6: Run the tests, demonstrating that they fail 
