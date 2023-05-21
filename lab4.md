@@ -4,7 +4,7 @@
 
 **keys pressed:**
 - `<up> <up> <enter>`
-   - 1
+  - 1
 
 ![Image](image.png)
 
