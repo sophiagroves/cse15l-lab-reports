@@ -3,6 +3,7 @@
 ## step 4: Log into ieng6
 
 `<up> <up> <enter>`
+![Image](lab7a.png)
 
 ## step 5: Clone your fork of the repository from your Github account
   
@@ -16,7 +17,7 @@ c d `<space>` l a `<tab> <enter>`
 
 ## step 7: Edit the code file ListExamples.java to fix the failing test 
 
-v i m `<space>` <shift-l> i `<tab>` . j a v a `<enter>`
+v i m `<space>` `<shift-l>` i `<tab>` . j a v a `<enter>`
 / a n g `<enter>` j r 2 : w q `<enter>`
 
 ## step 8: Run the tests, demonstrating that they now succeed
@@ -25,5 +26,6 @@ v i m `<space>` <shift-l> i `<tab>` . j a v a `<enter>`
 
 ## step 9: Commit and push the resulting change to your Github account
 
-g i t a d d . <enter>
-g i t `<space>` c o m m i t `<space>` - m `<space> <shift-'>` u p d a t e d `<shift-'>`
+g i t a d d . `<enter>`
+g i t `<space>` c o m m i t `<space>` - m `<space> <shift-'>` u p d a t e d `<shift-'> <enter>`
+g i t `<space>` p u s h `<enter>`
