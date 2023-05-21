@@ -2,7 +2,7 @@
 
 ## step 4: Log into ieng6
 
-- `<up> <up> <enter>`
+**keys pressed:** `<up> <up> <enter>`
 
 ![Image](image.png)
 
