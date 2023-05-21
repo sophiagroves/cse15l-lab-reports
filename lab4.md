@@ -3,8 +3,8 @@
 ## step 4: Log into ieng6
 
 **keys pressed:**
-1. `<up> <up> <enter>`
-- - 1
+- `<up> <up> <enter>`
+   - 1
 
 ![Image](image.png)
 
