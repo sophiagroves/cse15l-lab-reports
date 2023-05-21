@@ -29,8 +29,8 @@
 - v i m `<space>` `<shift-l>` i `<tab>` . j a v a `<enter>`
 - / a n g `<enter>` j r 2 : w q `<enter>`
 
-![Image](image(2).png)
 ![Image](image(3).png)
+![Image](image(2).png)
 
 ## step 8: Run the tests, demonstrating that they now succeed
 
