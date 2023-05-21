@@ -3,7 +3,7 @@
 ## step 4: Log into ieng6
 
 `<up> <up> <enter>`
-![Image](lab7a.png)
+![Image](image.png)
 
 ## step 5: Clone your fork of the repository from your Github account
   
