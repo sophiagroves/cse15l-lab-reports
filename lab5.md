@@ -74,5 +74,5 @@ if (num2 == 0) {
 ```
 
 ## part two: what I learned 
-This quarter I learned that vim exists. I also learned the basic commands of how to move around inside of it and why it can be useful after becoming profficient on it. 
+This quarter I learned that vim exists. I also learned the basic commands of how to move around inside of it, and that it can be useful for very quick editing after becoming profficient on it. 
 
