@@ -57,6 +57,7 @@ java -cp ./bin Main`
 
 **command lines ran to trigger the bug**
 `chmod +x script.sh
+
 ./script.sh`
 
 
