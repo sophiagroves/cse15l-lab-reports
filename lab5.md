@@ -36,10 +36,10 @@ The bug in the original code was that even if dividing zero by zero, this still 
 
 **file and directory structure**
 ```
-project/
+LAB5/
 ├── src/
 │   └── Main.java
-└── script.sh
+└── compile.sh
 ```
 
 **The contents of each file before fixing the bug**
