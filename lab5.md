@@ -35,33 +35,41 @@ The bug in the original code was that even if dividing zero by zero, this still 
 ## all information needed about the setup:
 
 **file and directory structure**
-`project/
+```
+project/
 ├── src/
 │   └── Main.java
-└── script.sh`
+└── script.sh
+```
 
 **The contents of each file before fixing the bug**
 in Main.java:
-``public class Main {
+```
+public class Main {
     public static void main(String[] args) {
         int num1 = 0;
         int num2 = 0;
         int result = num1 / num2;
         System.out.println("Result: " + result);
     }
-}``
+}
+```
 
 in compile.sh
-`javac -d ./bin ./src/Main.java
-java -cp ./bin Main`
+```
+javac -d ./bin ./src/Main.java
+java -cp ./bin Main
+```
 
 **command lines ran to trigger the bug**
 `chmod +x script.sh` `./script.sh`
 
 **what to edit to fix the bug**
-add the lines:
-`if (num2 == 0) { 
+add the following lines to the main method before the line `int result = num1 / num2` and after setting the variable values:
+```
+if (num2 == 0) { 
     throw new IllegalArgumentException("num2 can't be zero);
- }`
+ }
+```
 
 
