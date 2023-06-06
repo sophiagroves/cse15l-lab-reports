@@ -55,7 +55,7 @@ public class Main {
 }
 ```
 
-in compile.sh
+in compile.sh:
 ```
 javac -d ./bin ./src/Main.java
 java -cp ./bin Main
