@@ -29,7 +29,7 @@ It should seem that dividing by zero in this case is in fact not fine! Is there 
 
 ![Image](image(threthre).png)
 
-The bug in the original code was that even if dividing zero by zero, this still results in a division by zero error. 
+The bug in the original code was that even if dividing zero by zero, this still results in a division by zero error. There needs to a condition that throws an exception for num2 equaling zero before the method can try to divide with it.   
 
 
 ## all information needed about the setup:
@@ -64,6 +64,7 @@ java -cp ./bin Main
 **command lines ran to trigger the bug**
 `chmod +x script.sh` `./script.sh`
 
+
 **what to edit to fix the bug**
 add the following lines to the main method before the line `int result = num1 / num2` and after setting the variable values:
 ```
@@ -72,4 +73,6 @@ if (num2 == 0) {
  }
 ```
 
+## part two: what I learned 
+This quarter I learned that vim exists. I also learned the basic commands of how to move around inside of it and why it can be useful after becoming profficient on it. 
 
