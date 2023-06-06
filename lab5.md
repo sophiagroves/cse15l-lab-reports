@@ -56,8 +56,12 @@ in compile.sh
 java -cp ./bin Main`
 
 **command lines ran to trigger the bug**
-`chmod +x script.sh
+`chmod +x script.sh` `./script.sh`
 
-./script.sh`
+**what to edit to fix the bug**
+add the lines:
+`if (num2 == 0) { 
+    throw new IllegalArgumentException("num2 can't be zero);
+ }`
 
 
