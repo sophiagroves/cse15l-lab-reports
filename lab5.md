@@ -16,7 +16,7 @@ My guess is that the bug has something to do with zero in the denominator result
 
 Here is a screenshot of the symptom:
 
-![Image](image(tw).png)
+![Image](tw.png)
 
 ## response from TA:
 
@@ -27,7 +27,7 @@ It should seem that dividing by zero in this case is in fact not fine! Is there 
 
 ## edited code by the student and what the bug is:
 
-![Image](image(threthre).png)
+![Image](threthre.png)
 
 The bug in the original code was that even if dividing zero by zero, this still results in a division by zero error. There needs to a condition that throws an exception for num2 equaling zero before the method can try to divide with it.   
 
