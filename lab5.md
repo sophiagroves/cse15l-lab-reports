@@ -42,14 +42,14 @@ The bug in the original code was that even if dividing zero by zero, this still 
 
 **The contents of each file before fixing the bug**
 in Main.java:
-`public class Main {
+``public class Main {
     public static void main(String[] args) {
         int num1 = 0;
         int num2 = 0;
         int result = num1 / num2;
         System.out.println("Result: " + result);
     }
-}`
+}``
 
 in compile.sh
 `javac -d ./bin ./src/Main.java
